@@ -22,7 +22,6 @@
          @media (min-width: 768px){
             grid-column: span 2;
          }
-         
       }
 
       &:nth-child(4){
@@ -45,8 +44,7 @@
          height: 28px;
          object-fit: cover;
          border-radius: 50%;
-         box-shadow: 0 0 0 2px #A775F1;
-         // outline: 3px solid yellow;                  
+         box-shadow: 0 0 0 2px #A775F1;                
       }
       .name,
       .verified{
@@ -56,14 +54,12 @@
          position: relative;
          font-size: 13px;
          line-height: 13px;
-         // outline: 3px solid lime;
       }
       .verified{
          position: relative;
          font-size: 11px;
          line-height: 11px;
          padding-top: 4px;
-         // outline: 3px solid blue;
       }
       h4{         
          grid-column: 1 / span 2;
@@ -83,7 +79,6 @@
          grid-column: 1 / span 2;
          font-size: 13px;
          line-height: 18px;      
-         // outline: 3px solid skyblue;
       }
    }
 }

@@ -66,6 +66,7 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 @media (min-width: 1280px) {
@@ -75,7 +76,6 @@ body {
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
-    padding-bottom: 20px;
   }
 }
 

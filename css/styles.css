@@ -89,6 +89,10 @@ body {
   text-decoration: underline;
 }
 
+.title {
+  font-size: 0;
+}
+
 .testimonials {
   display: -ms-grid;
   display: grid;

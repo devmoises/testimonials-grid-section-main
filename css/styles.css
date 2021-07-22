@@ -174,7 +174,7 @@ body {
   z-index: 1;
 }
 
-.testimonials__item .photo {
+.testimonials__item img {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   grid-row: 1 / span 2;

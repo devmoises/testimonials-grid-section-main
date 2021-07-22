@@ -19,14 +19,12 @@ body{
    }
 }
 
-.attribution {   
+.attribution {
+   font-size: 11px;
+   text-align: center;
+   font-weight: normal;
    padding-bottom: 20px;
    
-   h1{
-      font-size: 11px;
-      text-align: center;
-      font-weight: normal;
-   }
    
    @media (min-width: 1280px){
       position: absolute;

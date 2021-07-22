@@ -65,13 +65,10 @@ body {
 }
 
 .attribution {
-  padding-bottom: 20px;
-}
-
-.attribution h1 {
   font-size: 11px;
   text-align: center;
   font-weight: normal;
+  padding-bottom: 20px;
 }
 
 @media (min-width: 1280px) {

@@ -60,6 +60,7 @@ body {
 @media (min-width: 1150px) {
   .container {
     width: 1110px;
+    padding: 0;
   }
 }
 

@@ -1,0 +1,19 @@
+:root{
+   --mobile-width: 375px;
+   --tablet-width: 768px;
+   --laptop-width: 1024px;
+   --desktop-width: 1440px;
+
+   --violet: hsl(263, 55%, 52%);
+   --very-dark-grayish-blue: hsl(217, 19%, 35%);
+   --very-dark-blckish-blue: hsl(219, 29%, 14%);
+   --white: hsl(0, 0%, 100%);
+   --light-gray: hsl(0, 0%, 81%);
+   --light-grayish-blue: hsl(210, 46%, 95%);
+   --font-family-barlow: 'Barlow Semi Condensed', sans-serif;
+
+   --font-size-body: 13px;
+
+   --font-title: normal 600 20px/24px var(--font-family-barlow);
+   --font-body: normal 500 var(--font-size-body)/18px var(--font-family-barlow);
+}

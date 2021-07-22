@@ -1,0 +1,40 @@
+body{
+   background-color: var(--light-grayish-blue);
+   font: var(--font-body);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   position: relative;
+   min-height: 100vh;
+}
+
+.container{
+   @media (min-width: 768px){
+      padding: 32px;
+   }
+   @media (min-width: 1150px){
+      width: 1110px;
+   }
+}
+
+.attribution {
+   font-size: 11px;
+   text-align: center;
+
+   @media (min-width: 1280px){
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      padding-bottom: 20px;
+   }
+   
+   a {
+      color: hsl(228, 45%, 44%);
+
+      &:hover{
+         text-decoration: underline;
+      }
+   }
+}

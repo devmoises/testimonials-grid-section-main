@@ -17,10 +17,28 @@
       display: grid;
       grid-template-columns: 28px 1fr;
       grid-template-rows: min-content;
-      
+      z-index: 1;
+      position: relative;
+
       &:nth-child(1){
          @media (min-width: 768px){
             grid-column: span 2;
+         }
+      }
+
+      &:nth-child(1)::after{
+         background-image: url("../images/bg-pattern-quotation.svg");
+         background-repeat: no-repeat;
+         background-position: top right;
+         content: "";
+         top: 0;
+         right: 24px;
+         bottom: 0;
+         left: 0;
+         position: absolute;   
+         
+         @media (min-width: 768px){
+            right: 82px;
          }
       }
 
@@ -37,6 +55,9 @@
          }
       }
       
+      *{
+         z-index: 1;
+      }
 
       .photo{         
          grid-row: 1 / span 2;
